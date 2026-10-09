@@ -1,0 +1,172 @@
+header{
+    background-color: black;
+    display: flex;
+    box-shadow: 0 10px 30px black;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    
+
+}
+header nav {
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 300px;
+}
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+     text-decoration: none;
+     color: #ffffff;
+     font-family: DejaVu Sans Mono, monospace;
+}
+
+ header span {
+    color: #ffffff;
+    font-size: 20px;
+ }
+
+ .serv{
+    color: #616161;
+ }
+
+ body {
+    margin: 0;
+ }
+
+ .agend{
+    color: goldenrod;
+ }
+
+ main{
+    background-color: #302e2e;
+    padding-top: 150px;
+    color: white;
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    font-size: 20px;
+ }
+
+ .atend {
+    margin-left: 200px;
+    margin-top: 70px;
+ }
+
+ h4 {
+    color: goldenrod;
+ } 
+  
+ form {
+     margin-left: 200px;
+     margin-top: 70px;
+     background-color: rgb(252, 252, 252);
+     color: black;
+     padding: 48px;
+     border-radius: 5px;
+     border: 2px solid #616161;
+    
+ }
+
+ input{
+    background-color: rgb(255, 255, 255);
+    font-family:DejaVu Sans Mono, monospace ;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #616161;
+    color: #616161;
+    width: 100%;
+    box-sizing: border-box;
+ }
+
+ select {
+    background-color: rgb(255, 255, 255);
+    font-family:DejaVu Sans Mono, monospace ;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #616161;
+    color: #616161;
+    box-sizing: border-box;
+
+ }
+
+ .ld {
+    display: flex;
+    gap: 15px;
+}
+.ld .cps{
+    flex: 1;
+}
+
+button {
+    background-color: black;
+    color: goldenrod;
+    font-family:DejaVu Sans Mono, monospace ;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 35px 8%;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.fc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.fl {
+    text-align: center;
+}
+
+.fl h2 {
+    margin-bottom: 5px;
+}
+
+.fl p {
+    font-size: 12px;
+}
+
+.fi {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+
+
+
+.fi h3 {
+    margin-bottom: 10px;
+}
+
+.fi p {
+    margin: 4px 0;
+    color: #ccc;
+}
+
+.linha {
+    width: 1px;
+    height: 80px;
+    background-color: #555;
+}
